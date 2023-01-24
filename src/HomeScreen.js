@@ -1,8 +1,13 @@
 import React from 'react'
-
+import "./HomeScreen.css"
+import Navbar from './Navbar'
 const HomeScreen = () => {
   return (
-    <div>HomeScreen</div>
+    <div className='homescreen' >
+        <Navbar/>
+        {/* banner */}
+        {/* Row */}
+    </div>
   )
 }
 
