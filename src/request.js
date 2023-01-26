@@ -9,4 +9,3 @@ const requests = {
 }
 
 export default requests;
-//https://api.themoviedb.org/3/tv/popular?api_key=568e8426f23a80efe494302ab02aa346&language=en-US&page=1
