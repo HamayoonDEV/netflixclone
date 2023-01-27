@@ -8,7 +8,7 @@ const Banner = () => {
 
         useEffect(()=>{
             async function fetchData(){
-                const request = await axios.get(requests.fetchTv)
+                const request = await axios.get(requests.fetchMovies)
                 setMovies(
                     request.data.results[
                         Math.floor(Math.random() * request.data.results.length-1)
@@ -29,7 +29,7 @@ const Banner = () => {
     }} > 
 
     <div className='banner-content'>
-        <h1 className='banner-title' > {movies?.name}</h1>
+        <h1 className='banner-title' > {movies?.name || movies?.title || movies?.orginal_name}</h1>
         <div className='banner-buttons' >
             <button className='banner-button'>play</button>
             <button className='banner-button' >My list</button>
