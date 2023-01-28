@@ -1,0 +1,38 @@
+.login{
+    position: relative;
+    height: 100%;
+    background: url('https://netflixjunkie.com/wp-content/uploads/2022/04/apps.47842.9007199266246365.2a2d31fe-dc82-41b6-9774-9ce54b027860.e16db4e0-8f09-444d-8119-15dc01401ba2-1140x600.jpeg') center no-repeat;
+    background-size: cover;
+
+}
+.login-logo{
+    position: fixed;
+    left: 0;
+    width: 150px;
+    object-fit: contain;
+    padding-left: 20px;
+}
+.signin{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #e50914;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.login-grediant{
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    background: rgba(0,0,0,0.4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0,0,0,0.8)0,
+        rgba(0,0,0,0)60%,
+        rgba(0,0,0,0.8)100%
+    );
+}
