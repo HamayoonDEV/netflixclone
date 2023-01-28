@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import './Navbar.css'
-
 const Navbar = () => {
  const [show,handelshow] = useState(false);
 
@@ -22,7 +21,7 @@ useEffect(()=>{
     <div className='nav-contents' >        
         <img className='nav-logo' 
              alt='netflix' 
-             src='https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png' />
+             src='https://download.logo.wine/logo/Netflix/Netflix-Logo.wine.png' />
         
         <img className='nav-avatar'  
               alt='avatar'
