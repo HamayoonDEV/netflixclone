@@ -2,6 +2,7 @@
     color: white;
     margin-left: 20px;
     
+    
 }
 
 .row_poster{
@@ -27,4 +28,20 @@
 }
 .poster_Larger{
     max-height: 250px;
+}
+
+@media screen and (max-width:800px) {
+    .row h1{
+        font-size: 1.67rem;
+        margin-left: 0;
+    }
+    .row_posters{
+        max-height: 100px;
+        margin-left: 0;
+    }
+    .poster_Larger{
+        max-height: 150px;
+    }
+    
+    
 }

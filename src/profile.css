@@ -1,0 +1,82 @@
+.profile{
+    height: 100vh;
+    color: white;
+   
+
+}
+.profileScreen{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8%;
+    max-width: 800px;
+}
+.profileScreen h1{
+    font-size: 60px;
+    font-weight: 400;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+.profileScreen-info{
+    display: flex;
+}
+.profileScreen-info img{
+    height: 100px;
+}
+.profileScreen-detail{
+    color: white;
+    margin-left: 25px;
+    flex: 1;
+    
+    
+}
+.profileScreen-detail h2{
+    background-color: gray;
+    padding: 15px;
+    padding-left: 20px;
+    font-size: 15px;
+   
+
+}
+.profileScreen-signOut{
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 5%;
+    width: 100%;
+    background-color: #e50914;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+.profileScreen-plans{
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width:800px) {
+    .profileScreen h1{
+        font-size: 30px;
+        font-weight: 200;
+
+    }
+    .profileScreen{
+        padding-top: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .profileScreen-detail h2{
+        font-size: 10px;
+        padding: 10px;
+        padding-left: 10px;
+
+    }
+    .profileScreen-signOut{
+        font-size: 10px;
+        padding: 10px;
+        padding-left: 10px;
+
+    }
+}

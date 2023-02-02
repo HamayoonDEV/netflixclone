@@ -6,6 +6,7 @@
     position: relative;
     object-fit: contain;
     color: white;
+
 }
 .banner-content{
     margin-left: 30px;
@@ -54,4 +55,21 @@
     color: #111;
     background-color: white;
     transition: all 0.5s;
+}
+
+@media screen and (max-width:800px) {
+
+     .banner{
+        height: 348px;
+     }
+     .banner-title{
+        font-size: 1.5rem;
+        font-weight: 400;
+     }
+     .banner-description{
+        width: 20rem;
+     }
+     .banner-fadebutton{
+        height: 8rem;
+     }
 }

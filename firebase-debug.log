@@ -1,0 +1,32 @@
+[debug] [2023-02-02T14:57:09.603Z] ----------------------------------------------------------------------
+[debug] [2023-02-02T14:57:09.605Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Abubakar\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-02-02T14:57:09.606Z] CLI Version:   11.21.0
+[debug] [2023-02-02T14:57:09.606Z] Platform:      win32
+[debug] [2023-02-02T14:57:09.606Z] Node Version:  v18.12.1
+[debug] [2023-02-02T14:57:09.718Z] Time:          Thu Feb 02 2023 19:57:09 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-02-02T14:57:09.719Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-02T14:57:09.759Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-02-02T14:57:10.016Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-02T14:57:10.016Z] > authorizing via signed-in user (hamayoon.47611@iqra.edu.pk)
+[debug] [2023-02-02T14:57:10.017Z] [iam] checking project netflix-clone-aa0a3 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-02-02T14:57:10.018Z] > refreshing access token with scopes: []
+[debug] [2023-02-02T14:57:10.020Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-02-02T14:57:10.020Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-02-02T14:57:10.691Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-02-02T14:57:10.691Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-02-02T14:57:10.888Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/netflix-clone-aa0a3:testIamPermissions [none]
+[debug] [2023-02-02T14:57:10.888Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/netflix-clone-aa0a3:testIamPermissions x-goog-quota-user=projects/netflix-clone-aa0a3
+[debug] [2023-02-02T14:57:10.888Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/netflix-clone-aa0a3:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-02-02T14:57:10.893Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-02-02T14:57:10.893Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2023-02-02T14:57:12.518Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/netflix-clone-aa0a3:testIamPermissions 200
+[debug] [2023-02-02T14:57:12.518Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/netflix-clone-aa0a3:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-02-02T14:57:12.519Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/netflix-clone-aa0a3 [none]
+[debug] [2023-02-02T14:57:23.594Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/netflix-clone-aa0a3
+[debug] [2023-02-02T14:57:28.610Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Abubakar\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+[error] 
+[error] Error: An unexpected error has occurred.
