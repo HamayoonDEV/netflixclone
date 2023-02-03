@@ -5,12 +5,12 @@ import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDvoueWQJEqQXvvEhEiHuUx53W_NTEbGoY",
-    authDomain: "netflix-clone-aa0a3.firebaseapp.com",
-    projectId: "netflix-clone-aa0a3",
-    storageBucket: "netflix-clone-aa0a3.appspot.com",
-    messagingSenderId: "888491036615",
-    appId: "1:888491036615:web:e90c3f3dd1ddf7f26593e2"
+   apiKey: "AIzaSyBIbhgHwopa6dQZix8Q2S0w1uR5nwv2g7I",
+  authDomain: "netflix-clone-a1953.firebaseapp.com",
+  projectId: "netflix-clone-a1953",
+  storageBucket: "netflix-clone-a1953.appspot.com",
+  messagingSenderId: "645941996519",
+  appId: "1:645941996519:web:f82bcb892cd30b28a92b42"
 };
 
 const firebaseApp =firebase.initializeApp(firebaseConfig);
